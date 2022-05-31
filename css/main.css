@@ -358,7 +358,7 @@ header .menu .menu_btn {
   }
   .s3 i {
     margin-top:4vw;
-    margin-bottom:10vh;
+    margin-bottom:20vh;
     color:#fff;
     font-style:normal;
     font-size:3vw;
@@ -549,6 +549,7 @@ header .menu .menu_btn {
     font-size:7vw;
     color:#fff;
     text-align:center;
+    margin-top:7vh;
   }
   .s6 h2 {
     color:#fff;
