@@ -220,7 +220,7 @@ header .menu .menu_btn {
       font-size:15px;
   }
   .s1 .swiper {
-      height:100vh;
+      height:100%;
   }
   .s1 .swiper-slide {
       background-position:center;
