@@ -342,7 +342,7 @@ header .menu .menu_btn {
   }
   .s3 button {
     border:1px solid #fff;
-    font-size:3vw;
+    font-size:4vw;
     padding:3vw;
     display:block;
     background-color:#fff;
@@ -361,7 +361,7 @@ header .menu .menu_btn {
     margin-bottom:10vh;
     color:#fff;
     font-style:normal;
-    font-size:3vw;
+    font-size:4vw;
     display:block;
   }
   .s3 .s3_box {
@@ -371,7 +371,7 @@ header .menu .menu_btn {
       position:absolute;
       bottom:0;
       left:0;
-      padding:3vh 7vw 44vw;
+      padding:3vh 7vw 50vw;
       display:flex;
       justify-content:space-between;
   }
@@ -431,7 +431,7 @@ header .menu .menu_btn {
       font-size:7vw;
       color:#fff;
       margin-top:2vh;
-      line-height:7vh;
+      line-height:6vh;
       text-align:center;
   }
   .s4 .s4_box {
@@ -449,7 +449,7 @@ header .menu .menu_btn {
   }
   .s4 .s4_box p {
       color:#fff;
-      font-size:3vw;
+      font-size:4vw;
       white-space:nowrap;
       text-align:center;
       font-weight:bold;
@@ -524,7 +524,7 @@ header .menu .menu_btn {
     font-size:6vw;
     margin-top:2vh;
     text-align:center;
-    line-height:40px;
+    line-height:6vw;
   }   
   .s5 p {
       color:#fff;
@@ -553,7 +553,7 @@ header .menu .menu_btn {
   }
   .s6 h2 {
     color:#fff;
-    font-size:4vw;
+    font-size:5vw;
     margin-top:0;
     text-align:center;
     line-height:40px;
@@ -652,7 +652,7 @@ header .menu .menu_btn {
   }
   .s7 button {
     border:1px solid rgba(255,255,255,0.3);
-    font-size:3vw;
+    font-size:4vw;
     padding:2vw;
     display:block;
     background-color:transparent;
@@ -663,9 +663,9 @@ header .menu .menu_btn {
   }
   .s7 h3 {
       color:#fff;
-      font-size:6vw;
+      font-size:5vw;
       margin-top:3vh;
-      line-height:24px;  
+      line-height:5vw;  
       text-shadow:1px 1px 1px #666;    
   }
   .s7 span {
@@ -677,7 +677,7 @@ header .menu .menu_btn {
   .s7 .arrow {
       width:30px;
       margin-top:3vh;
-      opacity:0.7;
+      opacity:0.8;
   }
   footer {
       background-color:#222;
