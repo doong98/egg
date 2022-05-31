@@ -118,8 +118,8 @@ header .menu .menu_btn {
     -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
     transform: rotate(45deg);
-    top: 0px;
-    left: 5px;
+    top: 0;
+    left: 0;
   }
   
   #nav-icon4.open span:nth-child(2) {
@@ -132,8 +132,8 @@ header .menu .menu_btn {
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    top: 22px;
-    left: 5px;
+    top: 17px;
+    left: 0;
   }
   /* GNB */
   .gnb {
@@ -296,7 +296,7 @@ header .menu .menu_btn {
       color:#fff;
       font-weight:bold;
       text-shadow:1px 1px 1px #333;
-      box-shadow:1px 1px 1px #333;
+      /*box-shadow:1px 1px 1px #333;*/
   }
   .s2 h2 {
       font-size:8vw;
@@ -342,7 +342,7 @@ header .menu .menu_btn {
   }
   .s3 button {
     border:1px solid #fff;
-    font-size:4vw;
+    font-size:3vw;
     padding:3vw;
     display:block;
     background-color:#fff;
@@ -361,7 +361,7 @@ header .menu .menu_btn {
     margin-bottom:10vh;
     color:#fff;
     font-style:normal;
-    font-size:4vw;
+    font-size:3vw;
     display:block;
   }
   .s3 .s3_box {
@@ -651,7 +651,7 @@ header .menu .menu_btn {
       padding:10vw 7vw 0;
   }
   .s7 button {
-    border:1px solid rgba(255,255,255,0.3);
+    border:1px solid rgba(255,255,255,0.5);
     font-size:3vw;
     padding:2vw;
     display:block;
@@ -659,13 +659,13 @@ header .menu .menu_btn {
     color:#fff;
     font-weight:bold;
     text-shadow:1px 1px 1px #333; 
-    box-shadow:1px 1px 1px #333; 
+    /*box-shadow:1px 1px 1px #333; */
   }
   .s7 h3 {
       color:#fff;
       font-size:4vw;
       margin-top:3vh;
-      line-height:5vw;  
+      line-height:5.5vw;  
       text-shadow:1px 1px 1px #666;    
   }
   .s7 span {
@@ -677,7 +677,7 @@ header .menu .menu_btn {
   .s7 .arrow {
       width:30px;
       margin-top:3vh;
-      opacity:0.8;
+      opacity:0.6;
   }
   footer {
       background-color:#222;
