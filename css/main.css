@@ -544,7 +544,6 @@ header .menu .menu_btn {
     display:flex;
     flex-flow:column nowrap;
     padding:0 7vw;
-    padding-top:10vw;
   }
   .s6 h1 {
     font-size:7vw;
