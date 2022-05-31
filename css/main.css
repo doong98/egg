@@ -652,7 +652,7 @@ header .menu .menu_btn {
   }
   .s7 button {
     border:1px solid rgba(255,255,255,0.3);
-    font-size:4vw;
+    font-size:3vw;
     padding:2vw;
     display:block;
     background-color:transparent;
@@ -663,7 +663,7 @@ header .menu .menu_btn {
   }
   .s7 h3 {
       color:#fff;
-      font-size:5vw;
+      font-size:4vw;
       margin-top:3vh;
       line-height:5vw;  
       text-shadow:1px 1px 1px #666;    
