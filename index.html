@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>EGGDROP</title>
+    <!-- fullpage.css 연결 -->
+    <link rel="stylesheet" href="css/jquery.fullPage.css" type="text/css">
+    <!-- swiper css 연결 -->
+    <link rel="stylesheet" href="css/swiper-bundle.css">
+    <!-- 사용자 정의 css 연결 -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 연결 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js 연결 -->
+    <script src="js/jquery.fullpage.js"></script>
+    <!-- swiper js 연결 -->
+    <script src="js/swiper-bundle.js"></script>
+    <!-- 사용자 정의 js 연결 -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </div>
+        <div class="menu">
+            <div class="ask"><a href="#">가맹문의</a></div>
+            <div class="menu_btn">
+                <a href="#">
+                    <div id="nav-icon4">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </a>
+            </div>
+            <!-- 내비게이션(GNB-Global Navigation Bar) -->
+            <div class="gnb">
+                <div class="top_menu">
+                    <div class="search">
+                        <div class="search_input">
+                            <input type="text" placeholder="search" name="search" id="search">
+                        </div>
+                        <div class="search_btn">
+                            <a href="#">
+                                <img src="img/search.png" alt="검색버튼">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lang">
+                        <a href="#">KO /</a>
+                        <a href="#">EN</a>
+                    </div>
+                </div>
+                <nav>
+                   <ul>
+                        <li><a href="#">MENU</a>
+                            <ul class="sub">
+                                <li><a href="#">NEW</a></li>
+                                <li><a href="#">EGGDROP'S CHOICE</a></li>
+                                <li><a href="#">SANDWICH</a></li>
+                                <li><a href="#">SIDE</a></li>
+                                <li><a href="#">COFFEE</a></li>
+                                <li><a href="#">DRINK</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">STORE</a></li>
+                        <li><a href="#">ABOUT</a>
+                            <ul class="sub">
+                                <li><a href="#">BRAND</a></li>
+                                <li><a href="#">NOTICE</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">CONTACT</a>
+                            <ul class="sub">
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">고객문의</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">가맹문의</a></li>
+                   </ul> 
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section s1">
+            <!-- swiper slide  -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide main1">
+                    <div class="line"></div>
+                    <h1>REAL EGG COBB SALAD</h1>
+                    <p>촉촉하게 삶은 계란이<br>
+                        듬뿍 들어간 리얼 콥 샐러드</p>
+                  </div>
+                  <div class="swiper-slide main2">
+                    <div class="line"></div>
+                    <h1>CLUB SANDWICH</h1>
+                    <p>양상추,베이컨,토마토와 에그드랍의<br>
+                        특제소스가 어우러진 베이직한 샌드위치</p>
+                  </div>
+                  <div class="swiper-slide main3">
+                    <div class="line"></div>
+                    <h1>GARLIC BACON CHEESE</h1>
+                    <p>갈릭버터를 발라 바삭하게 구운<br> 브리오쉬와 스크램블 에그,베이컨,<br>아메리칸 치즈가 어우러진 샌드위치</p>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="section s2">
+            <button>SINCE 2018</button>
+            <h2>BRAND IDENTITY</h2>
+            <p>무한한 가능성을 지니는 달걀의 모습을 형상화 하였습니다.</p>
+            <!-- 숫자 올라가는 애니메이션 -->
+            <div class="addNumber">
+                <span></span>
+            </div>
+            <i>토스트 누적 판매량</i>
+            <div class="egg_logo">
+                <img src="img/white_logo.png" alt="에그로고">
+            </div>
+        </section>
+        <section class="section s3">
+            <h2>일상의 수준을 높이다.</h2>
+            <button>에그드랍 전체메뉴 보기</button>
+            <i>*매장별로 판매 메뉴는 상이할 수 있습니다.</i>
+            <div class="s3_box">
+                <div class="s3_left">
+                    <div class="menu_icon">
+                        <img src="img/menu_icon.png" alt="메뉴">
+                    </div>
+                    <div class="s3_txt">SINCE 2018</div>
+                </div>
+                <div class="s3_right">
+                    <p></p>
+                    <div class="s3_txt">th</div>
+                </div>
+            </div>
+        </section>
+        <section class="section s4">
+            <div class="bg"></div>
+            <div>
+                <div class="line"></div>
+                <h2>ENJOY SERVICE</h2>
+                <h3>더 건강한 한끼<br>에그드랍</h3>
+                <div class="s4_box">
+                    <div class="s4_left">
+                        <a href="#">
+                            <div class="s4_left_ani">
+                                <img src="img/kakao.png" alt="카카오톡">
+                            </div>
+                        </a>
+                        <p>카카오톡 <span>선물하기</span></p>
+                    </div>
+                    <div class="s4_right">
+                        <a href="#">
+                            <div class="s4_right_ani">
+                                <img src="img/delivery.png" alt="배달">
+                            </div>
+                        </a>
+                        <p><span>딜리버리 </span>매장</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section s5">            
+            <div class="bg"></div>
+            <div>
+                <h1>Egg Makes Better</h1>
+                <h2>엄격한 품질 관리와<br>창의적인 메뉴</h2>
+                <p>맛과 조리법에 대한 엄격한 품질 관리<br>
+                    맛있는 스크램블 에그<br>
+                    중독성 있는 특제 소스</p>
+                <div class="line"></div>
+                <div class="s5_icon">
+                    <img src="img/hand_icon.png" alt="hand icon">                
+                </div>
+            </div>
+        </section>
+        <section class="section s6">
+            <h1>EGGDROP</h1>
+            <h2>INSTAGRAM</h2>
+            <div class="s6_box">
+                <ul>
+                    <li class="sns1">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns2">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns3">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns4">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns5">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns6">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns7">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns8">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                    <li class="sns9">
+                        <a href="#">
+                            <div class="sns_icon">
+                                <img src="img/insta.png" alt="인스타그램">
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="sns">
+                <ul>
+                    <li><a href="#">
+                        <img src="img/insta.png" alt="인스타그램">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/facebook.png" alt="페이스북">
+                    </a></li>
+                    <li><a href="#">
+                        <img src="img/youtube.png" alt="유투브">
+                    </a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="section s7">
+            <div class="news">
+                <button>NEWS</button>
+                <h3>프리미엄 샌드위치 에그드랍, tvN 드라마<br> ‘우리들의 블루스’ 제작 지원</h3>
+                <span>2022.05.16</span>
+            </div>
+            <div class="event">
+                <button>EVENT</button>
+                <h3>에그드랍 1만원권 11% 할인 프로모션(~12/20)</h3>
+                <div class="arrow">
+                    <a href="#"><img src="img/right_arrow.png" alt="화살표"></a>
+                </div>
+            </div>
+            <div class="fran">
+                <button>FRANCHISE</button>
+                <h3>에그드랍<br>가맹문의<br>바로가기</h3>
+                <div class="arrow">
+                    <a href="#"><img src="img/right_arrow.png" alt="화살표"></a>
+                </div>
+            </div>
+        </section>
+        <footer class="section fp-auto-height">
+            <div class="info">
+                <ul>
+                    <li><a href="#">고객문의</a></li>
+                    <li><a href="#">개설문의</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">회사소개</a></li>
+                </ul>
+            </div>
+            <address>
+                서울특별시 서초구 강남대로 311 (드림플러스 강남)<br>
+                전화번호 : 1670-4809 | 이메일 : support@goldenhind.co.kr
+            </address>
+            <p>Copyright© 주식회사 골든하인드. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
