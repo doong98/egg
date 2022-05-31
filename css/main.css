@@ -193,7 +193,7 @@ header .menu .menu_btn {
       border-bottom:1px solid #444;
   }
   .gnb nav ul li a {
-      font-size:20px;
+      font-size:16px;
       line-height:80px;
       color:#999;
       text-align:center;
@@ -217,7 +217,7 @@ header .menu .menu_btn {
   } */
   .gnb nav ul li .sub li a {
       line-height:55px;
-      font-size:15px;
+      font-size:14px;
   }
   .s1 .swiper {
       height:100%;
@@ -248,8 +248,8 @@ header .menu .menu_btn {
         color:#fff;
         text-align:center;
         margin-top:7vw;
-        line-height:7vw;
-        font-size:5vw;
+        line-height:6vw;
+        font-size:4.5vw;
         text-shadow:1px 1px 1px #111;
         margin-bottom:40vh;
     }
